@@ -92,7 +92,7 @@ public class Board {
         if (symbol != EMPTY) {
             int count = 1;
             int row = 1;
-            for (int i = NUM_COLS; i > 0; i++) {
+            for (int i = NUM_COLS; i > 0; i--) {
                 if (board[row][i] == symbol) {
                     count++;
                     row++;
